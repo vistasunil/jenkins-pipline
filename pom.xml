@@ -34,7 +34,7 @@
 <configuration>
 <archive>
 <manifest>
-<mainClass>com.test.Selenium</mainClass>
+<mainClass>test.Selenium</mainClass>
 </manifest>
 </archive>
 </configuration>
