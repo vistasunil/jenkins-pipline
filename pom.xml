@@ -34,7 +34,7 @@
 <configuration>
 <archive>
 <manifest>
-<mainClass>com.roufid.tutorials.AppTest</mainClass>
+<mainClass>com.test.Selenium</mainClass>
 </manifest>
 </archive>
 </configuration>
