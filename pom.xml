@@ -43,7 +43,7 @@
                     <appendAssemblyId>false</appendAssemblyId>
                  <archive>
                         <manifest>
-                            <mainClass>com.test.</mainClass>
+                            <mainClass>com.test.Selenium</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
