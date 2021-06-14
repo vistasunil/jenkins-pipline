@@ -25,29 +25,20 @@
     </dependency>
   </dependencies>
   <build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugin</groupId>
-            <artifactId>maven-jar-plugin</artifactId>
-            <version>2.4</version>
-        </plugin>
-        <plugin>
-
-            <artifactId>maven-assembly-plugin</artifactId>
-            <configuration>
-                <descriptorRefs>
-                    <descriptorRef>jar-with-dependencies</descriptorRef>
-                </descriptorRefs>
-                    <outputDirectory>${basedir}</outputDirectory>
-                    <finalName>server</finalName>
-                    <appendAssemblyId>false</appendAssemblyId>
-                 <archive>
-                        <manifest>
-                            <mainClass>com.test.Selenium</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
-    </plugin>
-    </plugins>
+   <plugins>
+<plugin>
+<!-- Build an executable JAR -->
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-jar-plugin</artifactId>
+<version>2.4</version>
+<configuration>
+<archive>
+<manifest>
+<mainClass>com.roufid.tutorials.AppTest</mainClass>
+</manifest>
+</archive>
+</configuration>
+</plugin>
+</plugins>
 </build>
 </project>
