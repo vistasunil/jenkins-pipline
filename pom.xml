@@ -34,7 +34,7 @@
                 <configuration>
                         <archive>
                                 <manifest>
-                                        <mainClass>test.headlessDemo</mainClass>
+                                        <mainClass>test.Selenium</mainClass>
                                 </manifest>
                         </archive>
                 </configuration>
