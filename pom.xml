@@ -8,7 +8,7 @@
   <dependency>
      <groupId>org.seleniumhq.selenium</groupId>
      <artifactId>selenium-java</artifactId>
-     <version>3.4.0</version>
+     <version>3.141.59</version>
   </dependency>
  <!-- TestNG -->
   <dependency>
@@ -18,49 +18,7 @@
      <scope>test</scope>
   </dependency>
   <!-- Selenium Server-->
-  <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-server</artifactId>
-      <version>3.141.59</version>
-    </dependency>
-    <dependency>
-<groupId>org.seleniumhq.selenium</groupId>
-<artifactId>selenium-remote-driver</artifactId>
-<version>3.4.0</version>
-<scope>compile</scope>
-</dependency> 
-    <dependency>
-        <groupId>io.github.bonigarcia</groupId>
-        <artifactId>webdrivermanager</artifactId>
-        <version>3.7.1</version>
-    </dependency>
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/htmlunit-driver -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>htmlunit-driver</artifactId>
-    <version>2.26</version>
-</dependency>
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-chrome-driver</artifactId>
-        <version>3.4.0</version>
-    </dependency>
-        <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-api</artifactId>
-        <version>3.4.0</version>
-    </dependency>
-        <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-chrome-driver</artifactId>
-        <version>3.4.0</version>
-    </dependency>
-        <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-support</artifactId>
-        <version>3.4.0</version>
-    </dependency>
+ 
   </dependencies>
   <build>
    <plugins>
