@@ -5,7 +5,11 @@
   <version>1.0-SNAPSHOT</version>
   <dependencies>
   <!-- Selenium -->
-
+  <dependency>
+     <groupId>org.seleniumhq.selenium</groupId>
+     <artifactId>selenium-java</artifactId>
+     <version>3.141.59</version>
+  </dependency>
  <!-- TestNG -->
   <dependency>
      <groupId>org.testng</groupId>
@@ -13,22 +17,7 @@
      <version>6.8</version>
      <scope>test</scope>
   </dependency>
-  <!-- Selenium Server-->
-     <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-api</artifactId>
-        <version>3.141.59</version> <!--Not sure the version-->
-    </dependency>
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-firefox-driver</artifactId>
-        <version>3.141.59</version> <!--Not sure the version-->
-    </dependency>
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-support</artifactId>
-        <version>3.141.59</version> <!--Not sure the version-->
-    </dependency>
+ 
   </dependencies>
   <build>
    <plugins>
