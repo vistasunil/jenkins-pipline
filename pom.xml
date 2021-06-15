@@ -27,7 +27,7 @@
     <dependency>
         <groupId>org.openqa.selenium.webdriver</groupId>
         <artifactId>webdriver-common</artifactId>
-        <version>0.5.524</version>
+        <version>3.141.5</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
     <dependency>
