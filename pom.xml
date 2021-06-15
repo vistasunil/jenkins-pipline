@@ -28,12 +28,7 @@
 <artifactId>selenium-remote-driver</artifactId>
 <version>2.28.0</version>
 <scope>compile</scope>
-</dependency>
-      <dependency>
-        <groupId>com.github.detro</groupId>
-        <artifactId>phantomjsdriver</artifactId>
-        <version>1.4.0</version>
-    </dependency>  
+</dependency> 
    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
