@@ -12,6 +12,7 @@ pipeline {
         }
         stage('Build'){
             steps {
+		sh "rm -rf comtest"
 		sh "mkdir comtest"
 		sh "cp -R src pom.xml comtest/"
 		dir("comtest") {
