@@ -4,6 +4,7 @@ node {
 		}
 	stage ('Build'){
 		sh "mkdir comtest"
+		sh "rm comtest/pom.xml"
 		sh "cp pom.xml comtest/"
     	dir("comtest") {
 	   sh "mvn clean install"
