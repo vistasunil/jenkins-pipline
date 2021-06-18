@@ -8,7 +8,7 @@ public class Selenium {
 
     public static void main(String[] args) {
         //declare the chrome driver from the local machine location
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
        
         //create object of chrome options
         ChromeOptions options = new ChromeOptions();
