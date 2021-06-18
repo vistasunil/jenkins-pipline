@@ -16,7 +16,6 @@ pipeline {
 		sh "mkdir comtest"
 		sh "cp -R src pom.xml comtest/"
 		dir("comtest") {
-			sh "mvn clean compile assembly:single"
 	   		sh "mvn clean install"
 		}
 		dir("comtest/target") {
