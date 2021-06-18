@@ -19,9 +19,9 @@
   </dependency>
   <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-server-standalone</artifactId>
-      <version>3.7.0</version>
-  </dependency>
+      <artifactId>selenium-server</artifactId>
+      <version>3.141.59</version>
+    </dependency>
   </dependencies>
   <build>
    <plugins>
