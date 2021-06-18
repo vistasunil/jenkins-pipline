@@ -11,13 +11,13 @@ public class Selenium {
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
        
         //create object of chrome options
-        ChromeOptions options = new ChromeOptions();
+        //ChromeOptions options = new ChromeOptions();
         
         //add the headless argument
-        options.addArguments("headless");
+        //options.addArguments("headless");
         
         //pass the options parameter in the Chrome driver declaration
-        WebDriver driver = new ChromeDriver(options);
+        WebDriver driver = new ChromeDriver();
         
         //Navigate to toolsQA site url
         driver.get("https://www.thecloudtrain.com");
