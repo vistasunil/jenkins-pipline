@@ -19,6 +19,7 @@ pipeline {
 		dir("comtest/target") {
 	   		sh "java -jar comtest-1.0-SNAPSHOT.jar"
        		}
+	    }
     	}
     }
 }
