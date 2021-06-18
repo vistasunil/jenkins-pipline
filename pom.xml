@@ -59,7 +59,6 @@
   <build>
    <plugins>
      <plugin>
-         <plugin>
                 <!-- Build an executable JAR -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
