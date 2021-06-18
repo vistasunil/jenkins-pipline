@@ -13,7 +13,7 @@ pipeline {
         stage('Build'){
             steps {
 		sh "mkdir comtest"
-		sh "cp pom.xml comtest/"
+		sh "cp -R src pom.xml comtest/"
 		dir("comtest") {
 	   		sh "mvn clean install"
 		}
