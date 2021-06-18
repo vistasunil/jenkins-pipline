@@ -88,7 +88,7 @@
         <manifest>
           <addClasspath>true</addClasspath>
           <classpathPrefix>lib/</classpathPrefix>
-          <mainClass>SimpleKeyLogger</mainClass>
+          <mainClass>test.Selenium</mainClass>
         </manifest>
       </archive>
     </configuration>
