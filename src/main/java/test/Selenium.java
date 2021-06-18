@@ -7,8 +7,8 @@ public class Selenium {
    public static void main(String[] args) {
        System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");	// <-- Change this path
        WebDriver driver = new ChromeDriver();
-       String baseUrl = "https://experitest.com/free-trial/";
-       String expectedTitle = "Free trial";
+       String baseUrl = "http://104.154.106.116:82/devopsIQ/";
+       String expectedTitle = "Jenkins Webhook Website";
        String actualTitle = "";
        driver.get(baseUrl);
        actualTitle = driver.getTitle();
